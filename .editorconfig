@@ -1,0 +1,17 @@
+#https://spec.editorconfig.org/
+#https://blog.theodo.com/2019/08/empower-your-dev-environment-with-eslint-prettier-and-editorconfig-with-no-conflicts/
+
+[*]
+root = true
+insert_final_newline = false
+trim_trailing_whitespace = true
+# prettier and editorconfig common properties
+max_line_length = 80
+end_of_line = lf
+indent_style = tab
+indent_size = 2
+tab_width = 2
+
+[*.{html,css,sass}] # No space allowed among items within {}
+indent_size = 4
+tab_width = 4
